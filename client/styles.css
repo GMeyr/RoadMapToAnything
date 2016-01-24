@@ -2,20 +2,16 @@
   colspan: 4;
 }
 .made-box {
-  margin-top: 100px;
-  width: 400px !important;
-  max-width: 400px !important;
+
 }
 .follow-box {
-  width: 500px !important;
-  max-width: 400px !important;
+
 }
 .dash-holder {
   margin: 20px;
 }
 #follow-box {
-  border: 1px solid black !important;
-  background-color: black !important;
+  border: 1px solid black;
 }
 h5 {
   text-align: absolute;
@@ -23,6 +19,7 @@ h5 {
 
 /*body { background-color: white;}*/
 
+<<<<<<< HEAD
 
 #search {
     display: none;
@@ -30,3 +27,5 @@ h5 {
     border-top: 1px solid #111;
     border-bottom: 1px solid #111;
 }
+=======
+>>>>>>> add getFollowedMaps api call
