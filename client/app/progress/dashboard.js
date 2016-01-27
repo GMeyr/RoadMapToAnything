@@ -51,9 +51,9 @@ angular.module('app.dash', [])
   //    $http.get('http://roadmaptoanything.herokuapp.com/#/api/users/' + $scope.userName )
         $http.get('/api/users/' + localStorage.getItem('user.username') )
           .then(function(response){
-              console.log('myMaps response.data', response.data);
-              $scope.myMaps = response.data.data.authoredRoadmaps || [];
-              $scope.addTotalNodesOfMyMaps($scope.myMaps);
+                console.log('myMaps response.data', response.data);
+                $scope.myMaps = response.data.data.authoredRoadmaps || [];
+                $scope.addTotalNodesOfMyMaps($scope.myMaps);
             }, function(err){
               console.log("error with MyMaps request", err);
             });
